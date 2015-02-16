@@ -1,13 +1,25 @@
 {
   "name": "make_bbls",
   "version": "0.1.0",
-  "description": "Will concatenate a boro, block, and lot values into a valid BBL for NYC open data",
-  "main": "create_bbls.js",
+  "description": "Will concatenate values for a borough, block, and lot into a valid BBL string or integer for working with NYC open data",
+  "main": "index.js",
   "scripts": {
     "test": "make test"
   },
-  "author": "@clhenrick, @aepyornis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clhenrick/make_bbls.git"
+  },
+  "keywords": [
+    "nyc",
+    "open data",
+    "bbl"
+  ],
+  "author": "Chris Henrick chrishenrick@gmail.com",
   "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/clhenrick/make_bbls/issues"
+  },
   "devDependencies": {
     "chai": "^2.0.0",
     "mocha": "^2.1.0"
