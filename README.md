@@ -1,6 +1,8 @@
 # make_bbls
 A Node JS Module for making valid BBL numbers from separate NYC borough, block and lot values.
 
+**Code Credit:** Iteration on [code](https://github.com/aepyornis/DOB-Jobs/blob/master/postgres_parser/parse.js#L157-L195) by [@aepyornis](https://github.com/aepyornis)
+
 ## Installation
 Make sure you have Node.js installed and then do `npm install make_bbls`
 
